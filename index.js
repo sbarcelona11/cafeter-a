@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 const PORT = process.env.PORT || 4000;
 
 app.get('/', async (req, res) => {
-    res.json({ status: 200, message: "Our History Hunters app works" })
+    res.json({ status: 200, message: "Our Cafeteria api works" })
 });
 
 // User routes
